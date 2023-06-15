@@ -1,3 +1,27 @@
+/*
+$blue-dark: darken(blue, 10%);
+$blue-darker: darken (blue, 20%);
+$blue-light: lighten (blue, 10%);
+$blue-lighter: ligthen (blue, 20%);
+*/
+/*
+$main-color-dark: darken($main, 10%);
+$main-color-darker: darken ($main, 20%);
+$main-color-light: lighten ($main, 10%);
+$main-color-lighter: ligthen ($main, 20%);
+*/
+h3, h2 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.recette, .ingredient {
+  list-style-type: none;
+  font-size: 14px;
+  color: #555;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +30,49 @@
 
 body {
   color: #333;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+h2 {
+  margin: 50px auto;
+  width: 600px;
+  background-color: orange;
+}
+
+.title {
+  color: red;
+  margin-bottom: 30px;
+  font-size: 3em;
+}
+
+.subtitle {
+  color: red;
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+.ingredient {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.recette {
+  border: 1px solid #000;
+  margin-top: 10px;
+  width: 600px;
+}
+.recette .firt-list-etape {
+  color: red;
+}
+
+.p-1 {
+  background-color: rgb(139, 198, 247);
+}
+
+.p-2 {
+  background-color: #5baff4;
 }/*# sourceMappingURL=style.css.map */

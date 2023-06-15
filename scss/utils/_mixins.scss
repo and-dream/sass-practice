@@ -1,0 +1,5 @@
+@mixin title($mb, $font-size) {
+    color: red;
+    margin-bottom: $mb;
+    font-size: $font-size;
+}

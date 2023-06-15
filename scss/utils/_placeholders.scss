@@ -1,0 +1,33 @@
+// les placeholders permettent d'inséser des bouts de code que l'on souhaite répéter
+
+// plusieurs lignes que je vais pouvoir sauvegarder
+// placeholder : sauvegarder un bloc de  propriété=valeur
+
+ // on fait hériter notre placeholder
+
+//  ne pas oublier d'importer chaque fichier partials _fichier dans le fichier style.scss
+
+%title {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    }
+    
+
+
+// creer un placeholder liste
+// liste pas de puces
+// taille du texte 14px
+// couleur du texte #555
+
+// html liste non ordonnee d'ingredient de cuisine
+// html liste ordonnee des etapes à suivre
+
+
+// appliquer le placeholder sur les éléments
+
+%liste {
+    list-style-type: none;
+    font-size: 14px;
+    color: #555;
+}

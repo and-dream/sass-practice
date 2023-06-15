@@ -1,0 +1,32 @@
+.title {
+    @include title(30px, 3em);
+}
+
+.subtitle {
+    @include title(20px, 3em);
+}
+
+.ingredient {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    @extend %liste;
+}
+
+.recette {
+    @extend %liste;
+    border: $border;
+    margin-top: 10px;
+    width: $width;
+    
+    .firt-list-etape{
+        color: red;
+    }
+}
+
+.p-1 {
+    background-color: $blue;
+}
+
+.p-2 {
+    background-color: $blue-dark;
+}

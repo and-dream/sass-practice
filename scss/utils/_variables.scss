@@ -1,0 +1,40 @@
+// Les variables permettent de sauvegarder des données
+// Utile pour les éléments qui ont lieu à la charte graphique par exemple
+// Ou tout ce qui pourrait se répéter et que l'on souhaiterais modifier en même temps
+
+
+
+// déclarer une variable qui va contenir la valeur '50px auto' pour sauvegarder un margin
+// déclarer une variable qui va contenir une largeur de 600px
+// déclarer une variable qui va contenir une couleur de fond 'orange'
+// Appliquer sur le h2 ces trois variables
+// marges, largeur et couleur de fond
+
+
+$color: red;
+$color-txt: yellow;
+$border: 1px solid #000;
+$margin: 50px auto;
+$width: 600px;
+$backgroundOrange:orange;
+$blue: rgb(139, 198, 247);
+$blue-dark: darken($blue, 10%);
+$blue-darker: darken ($blue, 20%);
+$blue-light: lighten ($blue, 10%);
+$blue-lighter: ligthen ($blue, 20%);
+
+/*
+$blue-dark: darken(blue, 10%);
+$blue-darker: darken (blue, 20%);
+$blue-light: lighten (blue, 10%);
+$blue-lighter: ligthen (blue, 20%);
+*/
+
+/*
+$main-color-dark: darken($main, 10%);
+$main-color-darker: darken ($main, 20%);
+$main-color-light: lighten ($main, 10%);
+$main-color-lighter: ligthen ($main, 20%);
+*/
+
+

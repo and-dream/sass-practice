@@ -1,10 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// les imports permettent d'intégrer des fichiers partials
+// L'ordre importe, on importe les variables, les fonctions, le reset et le code dans un ordre logique
 
-body {
-    color: #333;
-}
+
+@import 'utils/variables';
+@import 'utils/placeholders';
+@import 'utils/mixins';
+@import 'base/reset';
+@import 'base/default';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'components/btn';
+@import 'page/home';
 
